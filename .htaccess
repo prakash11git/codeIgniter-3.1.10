@@ -1,0 +1,8 @@
+#AuthType Basic
+#AuthName "Restricted Files"
+#AuthUserFile /home/myredboxstudio/public_html/actiodev/.htmyactio
+#Require user myactiodev 
+
+#RewriteEngine On
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
