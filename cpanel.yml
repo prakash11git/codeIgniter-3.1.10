@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/myredboxstudio/public_html/repositories/codeIgniter-3.1.10/
+    - /bin/cp -R $DEPLOYPATH
